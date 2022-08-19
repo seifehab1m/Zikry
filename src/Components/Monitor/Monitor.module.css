@@ -1,0 +1,27 @@
+.bg
+{
+    background-image: url("./monitorBg.png");
+    
+}
+.details
+{
+    margin-top: 150px !important;
+    background-image: url("./h2bg.png");
+    background-position: center center;
+    background-size: cover;
+}
+.MonitorStylespan
+{
+    
+    color: #14A800;
+    position: relative;
+    padding-left: 0px;
+}
+
+.MonitorStyleIconText {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}

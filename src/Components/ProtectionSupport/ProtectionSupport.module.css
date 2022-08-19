@@ -1,0 +1,27 @@
+
+.ProtectionSupportspan
+{
+    color: #14A800;
+    position: relative;
+    padding-left: 0px;
+}
+
+.ProtectionSupportspan::after
+{
+    content: "";
+    width: 140px;
+    height: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    z-index: -1;
+    background-color: rgba(255, 236, 179, 1);
+}
+.protectionSupportIconText {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}

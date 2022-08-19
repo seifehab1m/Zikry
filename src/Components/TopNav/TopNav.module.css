@@ -1,0 +1,31 @@
+.body
+{
+    background-color:#E6F4E4;
+}
+
+ i
+{
+    padding: 8px;
+    font-size: 14px;
+    color: rgba(67, 185, 51, 1);
+    cursor: pointer;
+}
+
+h6,select
+{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    color:#108600;;
+}
+select
+{
+    border: none;
+    background-color: transparent;
+    padding-left: 26px;
+    cursor: pointer;
+
+
+
+}

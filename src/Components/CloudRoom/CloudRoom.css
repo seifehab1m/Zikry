@@ -1,0 +1,58 @@
+.classRoom{
+    margin-top: 178px;
+}
+.featuresBg {
+    width: 160px;
+    height: 35px;
+    background: #D0EECC;
+    border-radius: 8px;
+}
+.bg-vector
+{
+    background-image: url("./bg-vector.png");
+    background-repeat: no-repeat;
+    transform: translateX(60%);
+    z-index: -1;
+}
+.classRoomTitle h6 {
+    height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+/* .classRoomh2Bg
+{
+    width: 50%;
+    background-image: url("./cloudRoomh2bg.png");
+
+} */
+.classRoomTitle h2 {
+    width: auto !important;
+    font-size: 36px;
+    margin-top: 178px;
+    position: relative;
+    line-height: 58px;
+    background-image: url("./cloudRoomh2bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.classRoomTitle h2::after {
+    content: "";
+    width: 140px;
+    height: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-15%);
+    z-index: -1;
+    background-color: rgba(255, 236, 179, 1);
+}
+.bgSwiperCollection img
+{
+    z-index: -1;
+    object-fit: cover;
+}

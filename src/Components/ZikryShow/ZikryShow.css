@@ -1,0 +1,43 @@
+.ZikryShow{
+    margin-top: 178px;
+}
+
+
+.ZikryShowTitle p {
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 100%;
+}
+
+.ZikryShowTitle h2 {
+    width: auto !important;
+    font-size: 36px;
+    margin-top: 178px;
+    position: relative;
+    line-height: 58px;
+    /* background-image: url("./cloudRoomh2bg.png"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.ZikryShowTitle h2::after {
+    content: "";
+    width: 140px;
+    height: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    z-index: -1;
+    background-color: rgba(255, 236, 179, 1);
+}
+.bgSwiperCollection img
+{
+    z-index: -1;
+    object-fit: cover;
+}
